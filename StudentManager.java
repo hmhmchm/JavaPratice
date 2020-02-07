@@ -63,7 +63,7 @@ public class StudentManger {
 	public static void calcAvg(Student[][] stus) {//수학 평균
 		for(int row = 0; row < stus.length; row++) {
 			double mathSum = 0.0;
-			for(int col = 0; col < stus[row].length; col++) {
+			for(int col = 0; col < stus[row].length; col++) {//
 				mathSum += stus[row][col].getMath();
 			}
 			System.out.println((row + 1) + "반의 수학 평균: " + (mathSum/stus.length));
