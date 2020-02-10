@@ -15,6 +15,7 @@ public class CircleDemo1 {
 		Circle yourCircle = new Circle(5.0);
 		
 		//print();  print메서드를 불러오려면 밑에 정적인 static으로 묶어야한다.
+		//static변수와 인스턴수 변수 차이
 		System.out.println("원의 개수 : " + Circle.numOfCircles);
 		System.out.println("원의 개수 : " + yourCircle.numCircles);
 	}
