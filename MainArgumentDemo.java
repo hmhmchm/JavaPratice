@@ -14,5 +14,6 @@ public class MainArgumentDemo{
 			System.out.println(s);
 		}
 	}
+	//어이쿠 한번 출력된다.
 
 }
