@@ -12,7 +12,7 @@ public class TwoArrayTest {
 			}
 		}
 		
-		for(int[] n : arr) {
+		for(int[] n : arr) {//foreach 구문  arr 자리에는 배열이나 컬렉션 가능하다.
 			for(int k : n) {
 				System.out.print(k + "\t");
 			}
