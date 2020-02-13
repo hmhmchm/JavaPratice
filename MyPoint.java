@@ -6,7 +6,7 @@ public class MyPoint {
 		return p;
 	}
 
-	public void setP(int p) {
+	public void setP(int p) {//접근자와 설정자
 		this.p = p;
 	}
 
