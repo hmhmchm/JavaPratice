@@ -5,7 +5,7 @@ public class Circle03 {
 	}
 	
 	protected void findRadius() {
-		System.out.println("반지름이 10.0");
+		System.out.println("반지름이 10.0이다.");
 	}
 	
 	public void findArea() {
