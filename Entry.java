@@ -1,4 +1,4 @@
-
+//한번 더 보기
 public class Entry<K, V> {
 	private K key;
 	private V value; //변수 key 와 value의 타입은 각각 k와 v 이다.
