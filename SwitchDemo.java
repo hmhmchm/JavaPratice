@@ -22,7 +22,7 @@ public class SwitchDemo {
 			numDays = 30;
 			break;
 		case 2:
-			if(((year%4 == 0) && !(year % 100 == 0)) || (year % 400 == 0))
+			if(((year%4 == 0) && !(year % 100 == 0)) || (year % 400 == 0)) //윤년 
 				numDays = 29;
 			else
 				numDays = 28;
